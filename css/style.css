@@ -1,0 +1,66 @@
+/* Aligning the header and giving it a nice font and font size  */
+h1 {
+  display: flex;
+  justify-content: center;
+  
+  color: white;
+  
+  font-size: 50px;
+  font-family: 'Krona One', sans-serif;
+  
+  margin: 0;
+}
+
+/* Changing the background from white to black */
+body {
+  background-color: black;
+}
+
+/* Giving the svg full width and centering it  */
+svg {
+  display: block;
+  margin: auto;
+  
+  width: 100%;
+}
+
+/* Adding stroke to the arrows */
+.red {
+  stroke: white;
+  stroke-width: 3px;    
+}
+
+.green {
+  stroke: white;
+  stroke-width: 3px;   
+}
+
+.blue {
+  stroke: white;
+  stroke-width: 3px;   
+}
+
+/* So the arrow will get filled purple when toggle is clicked */
+.go {
+  fill: purple;
+}
+
+/* Centering button, changing its font and adding colour */
+button {
+  padding: .5rem 1rem;
+  margin: 0 auto;
+  border-radius: 1rem;
+  
+  background: white;
+  
+  font-size: 1.5rem;
+  font-family: 'Krona One', sans-serif;
+  font-variant: small-caps;
+  
+  cursor: pointer;
+}
+
+/* Changing the button background to red when it is clicked */
+button:active {
+  background: red;
+}
